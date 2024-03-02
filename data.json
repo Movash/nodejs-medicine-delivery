@@ -1,0 +1,57 @@
+[
+  {
+    "pharmacy": "pharmacy1",
+    "medicines": [
+      { "name": "paracetamol", "price": 20 },
+      { "name": "ibuprofen", "price": 15 },
+      { "name": "amoxicillin", "price": 30 },
+      { "name": "aspirin", "price": 10 },
+      { "name": "diazepam", "price": 25 },
+      { "name": "phenylephrine", "price": 18 }
+    ]
+  },
+  {
+    "pharmacy": "pharmacy2",
+    "medicines": [
+      { "name": "cycloserine", "price": 22 },
+      { "name": "pyrantel", "price": 12 },
+      { "name": "loratadine", "price": 25 },
+      { "name": "clarithromycin", "price": 40 },
+      { "name": "hydroxyzine", "price": 28 },
+      { "name": "captopril", "price": 15 }
+    ]
+  },
+  {
+    "pharmacy": "pharmacy3",
+    "medicines": [
+      { "name": "fluconazole", "price": 35 },
+      { "name": "prednisolone", "price": 18 },
+      { "name": "ketoconazole", "price": 30 },
+      { "name": "clonazepam", "price": 20 },
+      { "name": "levomycetin", "price": 25 },
+      { "name": "bisoprolol", "price": 22 }
+    ]
+  },
+  {
+    "pharmacy": "pharmacy4",
+    "medicines": [
+      { "name": "enalapril", "price": 28 },
+      { "name": "lorazepam", "price": 20 },
+      { "name": "metformin", "price": 15 },
+      { "name": "metoprolol", "price": 25 },
+      { "name": "moxonidine", "price": 20 },
+      { "name": "nitrazepam", "price": 18 }
+    ]
+  },
+  {
+    "pharmacy": "pharmacy5",
+    "medicines": [
+      { "name": "fentanyl", "price": 50 },
+      { "name": "gabapentin", "price": 40 },
+      { "name": "mirtazapine", "price": 35 },
+      { "name": "perindopril", "price": 30 },
+      { "name": "haloperidol", "price": 45 },
+      { "name": "ketorolac", "price": 20 }
+    ]
+  }
+]
