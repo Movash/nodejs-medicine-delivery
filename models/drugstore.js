@@ -13,6 +13,10 @@ const medicineSchema = new Schema({
     type: String,
     required: true,
   },
+  count: {
+    type: Number,
+    required: true,
+  },
 });
 
 const drugstoreSchema = new Schema({
