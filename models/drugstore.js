@@ -9,6 +9,10 @@ const medicineSchema = new Schema({
     type: Number,
     required: true,
   },
+  photo: {
+    type: String,
+    required: true,
+  },
 });
 
 const drugstoreSchema = new Schema({
