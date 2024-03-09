@@ -11,11 +11,7 @@ const medicineSchema = new Schema({
   },
   photo: {
     type: String,
-    required: true,
-  },
-  count: {
-    type: Number,
-    required: true,
+    required: false,
   },
 });
 
