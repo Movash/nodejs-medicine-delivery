@@ -1,17 +1,17 @@
 [
   {
-    "pharmacy": "pharmacy1",
+    "pharmacy": "Pharmacy",
     "medicines": [
-      { "name": "paracetamol", "price": 20 },
-      { "name": "ibuprofen", "price": 15 },
-      { "name": "amoxicillin", "price": 30 },
-      { "name": "aspirin", "price": 10 },
-      { "name": "diazepam", "price": 25 },
-      { "name": "phenylephrine", "price": 18 }
+      { "name": "paracetamol", "price": 20, "photo": "medicines/Paracetamol.jpg" },
+      { "name": "ibuprofen", "price": 15, "photo": "/medicines/Ibuprofen.jpg" },
+      { "name": "amoxicillin", "price": 30, "photo": "medicines/Amoxicillin.jpg" },
+      { "name": "aspirin", "price": 10, "photo": "medicines/Aspirin.jpg" },
+      { "name": "diazepam", "price": 25, "photo": "medicines/Diazepam.webp" },
+      { "name": "phenylephrine", "price": 18, "photo": "medicines/Phenylephrine.jpg" }
     ]
   },
   {
-    "pharmacy": "pharmacy2",
+    "pharmacy": "Drugstore",
     "medicines": [
       { "name": "cycloserine", "price": 22 },
       { "name": "pyrantel", "price": 12 },
@@ -22,7 +22,7 @@
     ]
   },
   {
-    "pharmacy": "pharmacy3",
+    "pharmacy": "Chemistry",
     "medicines": [
       { "name": "fluconazole", "price": 35 },
       { "name": "prednisolone", "price": 18 },
@@ -33,7 +33,7 @@
     ]
   },
   {
-    "pharmacy": "pharmacy4",
+    "pharmacy": "Meds",
     "medicines": [
       { "name": "enalapril", "price": 28 },
       { "name": "lorazepam", "price": 20 },
@@ -44,7 +44,7 @@
     ]
   },
   {
-    "pharmacy": "pharmacy5",
+    "pharmacy": "Medacy",
     "medicines": [
       { "name": "fentanyl", "price": 50 },
       { "name": "gabapentin", "price": 40 },
