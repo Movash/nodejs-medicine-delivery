@@ -1,4 +1,5 @@
 const express = require("express");
+const router = express.Router();
 const logger = require("morgan");
 const cors = require("cors");
 require("dotenv").config();
@@ -10,10 +11,17 @@ const app = express();
 
 const formatsLogger = app.get("env") === "development" ? "dev" : "short";
 
+const indexRouter = router.get("/", (req, res) => {
+  res.send("OK");
+});
+
 app.use(logger(formatsLogger));
 app.use(cors());
 app.use(express.json());
 app.use(express.static("public"))
+
+
+app.use("/", indexRouter);
 
 app.use("/api/drugstores", drugstoresRouter);
 app.use("/users", ordersRouter);
@@ -28,3 +36,4 @@ app.use((err, req, res, next) => {
 });
 
 module.exports = app;
+module.exports.indexRouter = indexRouter;
