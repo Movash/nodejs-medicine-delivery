@@ -5,7 +5,7 @@ const { BACKEND_URL } = process.env;
 
 const makeRequest = () => {
   console.log("Sending request to backend...");
-
+  
   https
     .get(BACKEND_URL, (res) => {
       if (res.statusCode === 200) {
@@ -21,5 +21,5 @@ const makeRequest = () => {
     });
 };
 
-// cron.schedule("*/14 * * * *", makeRequest);
-cron.schedule("*/20 * * * * *", makeRequest);
+// cron.schedule("*/20 * * * * *", makeRequest);
+cron.schedule("*/14 * * * *", makeRequest);
