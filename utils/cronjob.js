@@ -1,10 +1,10 @@
 const cron = require("node-cron");
 const https = require("https");
 
-const { BACKEND_URL } = process.env;
+const BACKEND_URL='https://nodejs-medicine-delivery.onrender.com'
 
 const makeRequest = () => {
-  console.log("Sending request to backend...");
+  console.log(`Sending request to backend at ${BACKEND_URL}...`);
   
   https
     .get(BACKEND_URL, (res) => {
@@ -21,5 +21,8 @@ const makeRequest = () => {
     });
 };
 
-// cron.schedule("*/20 * * * * *", makeRequest);
 cron.schedule("*/14 * * * *", makeRequest);
+
+module.exports = {
+  makeRequest,
+};
